@@ -1,0 +1,96 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: inter;
+    font-family: 'Inter', sans-serif;
+}
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.navbar-lien{
+    display: flex;
+    justify-content: space-between;
+    gap:30px; 
+}
+.logo{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:7px;
+}
+.logo > p {
+font-style: bold;
+
+
+}
+.logo img{
+    background-color: #0866C2;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+ .navbar-lien a{
+     text-decoration: none;
+     color: black;
+}
+.navbar button{
+   background-color:#FF6418;
+   border: none;
+   padding: 10px;
+   border-radius: 10px;
+   color: white;
+; 
+}
+#logo-express{
+    color: #0866C2;
+}
+.hero{    background-color: #F3F7FA;
+    
+}
+.container{
+    display: flex;
+    justify-content:space-between;
+   padding:50px;
+
+}
+.container img{
+    width: 500px;
+    height: 400px;
+    border-radius: 24px;
+}
+.section h1 {
+    color: #102A43;
+    margin-block:20px;
+}
+.section p{
+    color:#486176 ;
+}
+.butten-section{
+    display:flex;
+    gap:14px;
+    margin-block: 20px;
+}
+.butten-section-demander{
+    background-color: #FF6418;
+    color: #FFFFFF;
+    border: none;
+    padding: 12px;
+    border-radius: 10px;
+
+}
+.butten-section-services{
+    color: #102A43;
+    background-color: #FFFFFF;
+    border: none;
+    padding: 12px;
+    border-radius: 10px;
+
+}
+.icon-section{
+    margin-top: 15px;
+}
+.icon-section > p{
+    color:#0866C2;
+}
