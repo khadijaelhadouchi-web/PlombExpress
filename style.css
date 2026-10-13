@@ -30,6 +30,10 @@
     height: 30rem;
     border-radius: 10%;
 }
+.image-service{
+    height: 10rem;
+   
+}
 
 .flex-column {
     display: flex;
@@ -66,7 +70,11 @@
 .p-5 {
     padding: 5rem 0;
 }
+.border-service{
+    border: #333 solid 0.5rem;
+    border-radius: 10%;
 
+}
 /* * {
     margin: 0px;
     padding: 0px;
