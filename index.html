@@ -6,45 +6,47 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <div class="navbar">
-
-        <div class="logo"><img src="icons/icon-navbar.png">
+<body class="container">
+    <nav class="flex pt-5">
+        <div class="flex align-center"><img src="icons/icon-navbar.png">
         <p>Plomb'<span id="logo-express">Express</span></p></div>
-        <div class="navbar-lien">
+        <div class="navbar-lien flex align-center gap-5">
             <a href="#">Accueil</a>
             <a href="#">Services</a>
             <a href="#">À propos</a>
             <a href="#">Contact</a>
         </div>
     
-        <button>Demander un devis</button>
-    </div>
-    <div class="hero">
-        <div class="container">
-            <div class="section">
+        <a class="btn btn-primary" href="http://">Demander un devis</a>
+    </nav>
+    <header class="vh-80 p-5">
+        <div class="flex">
+            <div class="section flex-column justify-center gap-5">
                 <div class="icon-section">
                     <p>Votre artisan à Lyon et alentours</p>
                 </div>
                 <h1>Un plombier de <br>confiance près de<br> chez vous</h1>
                 <p>Chez Plomb Express, nous prenons soin de votre confort. Dépannage,<br> installation ou fuite : nos artisans vous accompagnent avec réactivité, <br>transparence et un travail soigné. </p>
                 <div  class="butten-section">
-                     <button class="butten-section-demander" >Demander un devis</button>
-                     <button class="butten-section-services">Nos services</button>
+                    <a class="btn btn-primary" href="http://">Demander un devis</a>
+                    <a class="btn btn-secondary" href="http://">os services</a>
                 </div>
             </div>
-            <div class="image">
-                <img src="images/image-2.jpg">
+            <div class="">
+                <img class="image" src="images/image-2.jpg">
             </div>
         </div>
-
-    </div>
-    <div class="">
+ 
+</header>
+    <div class="statistiques p-5">
+        <div class="flex">
         <p>Intervention rapide 7j/7</p>
         <p>Travail garanti</p>
         <p>Professionnels qualifiés</p>
-    </div>
-    <div class="">
+    </div></div>
+    
+    <div class="Services Section">
+        <div></div>
         <p>NOS SAVOIR-FAIRE</p>
         <h2>Des solutions pour tous vos besoins</h1>
         <p>De l'urgence au projet, le bon geste pour chaque situation.</p>
