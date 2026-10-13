@@ -45,6 +45,9 @@
     padding: 0.8rem;
     text-decoration: none;
 }
+.text-decoration{
+    text-decoration: none;
+}
 
 .btn-primary {
     color: #fff;
