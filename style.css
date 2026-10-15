@@ -14,7 +14,7 @@ background-color:#F3F7FA;
 .background-secondary{
     background-color:#FFFFFF ;
 }
-.background-foter{
+.background-footer{
     background-color: #102A43;
 }
 .flex {
@@ -91,6 +91,7 @@ background-color:#F3F7FA;
     width: 394px;
     height: 333px;
 }
+
 /* * {
     margin: 0px;
     padding: 0px;
