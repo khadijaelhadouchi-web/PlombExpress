@@ -6,36 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+
 </head>
 
 <body class="container">
-    <nav class="flex pt-5 ">
+    <nav class="flex pt-5 p-2 ">
         <div class="flex align-center">
-            <i class="fa-solid fa-house"></i>
-            <p>Plomb'<span id="logo-express">Express</span></p>
+            <img src="icons/icon-hero.svg" alt="" class="logo-image-background">
+            <p>Plomb'<span class="color-bleu">Express</span></p>
         </div>
         <div class="navbar-lien flex align-center gap-5 text-decoration">
-            <a href="#">Accueil</a>
-            <a href="#">Services</a>
-            <a href="#">À propos</a>
-            <a href="#">Contact</a>
+            <a href="#" class="text-decoration">Accueil</a>
+            <a href="#" class="text-decoration">Services</a>
+            <a href="#" class="text-decoration">À propos</a>
+            <a href="#" class="text-decoration">Contact</a>
         </div>
 
         <a class="btn btn-primary" href="http://">Demander un devis</a>
     </nav>
     <header class="vh-80 p-5 background-primary  ">
-        <div class="flex">
-            <div class="section flex-column justify-center gap-5">
-                <div class="icon-section">
+        <div class="flex padding-left">
+            <div class=" flex-column  gap-5 p-2">
+                <div class=" color-bleu display-flex ">
+                    <i class="fa-solid fa-location-dot" style="color: rgb(8, 102, 194);"></i>
                     <p>Votre artisan à Lyon et alentours</p>
                 </div>
                 <h1>Un plombier de <br>confiance près de<br> chez vous</h1>
                 <p>Chez Plomb Express, nous prenons soin de votre confort. Dépannage,<br> installation ou fuite : nos
                     artisans vous accompagnent avec réactivité, <br>transparence et un travail soigné. </p>
-                <div class="butten-section">
-                    <a class="btn btn-primary" href="http://">Demander un devis</a>
-                    <a class="btn btn-secondary" href="http://">os services</a>
+                <div class=" display-flex gap-5">
+                    <a class="btn btn-primary" href="http://">Demander un devis </a>
+                    <a class="btn btn-secondary" href="http://">Nos services</a>
                 </div>
             </div>
             <div class="">
@@ -45,17 +52,29 @@
 
 
     </header>
-    <div class="statistiques p-5 background-primary">
-        <div class="flex">
-            <p>Intervention rapide 7j/7</p>
-            <p>Travail garanti</p>
-            <p>Professionnels qualifiés</p>
+    <div class="background-primary  ">
+        <div class="flex p-5 border-top margin-5">
+            <div class="display-flex">
+                <i class="fa-solid fa-clock-rotate-left" style="color: rgb(8, 102, 194);"></i>
+                <p>Intervention rapide 7j/7</p>
+            </div>
+            <div class="display-flex">
+                <i class="fa-solid fa-shield-halved" style="color: rgb(8, 102, 194);"></i>
+                <p>Travail garanti</p>
+            </div>
+            <div class="display-flex">
+                <i class="fa-solid fa-circle-check" style="color: rgb(8, 102, 194);"></i>
+                <p>Professionnels qualifiés</p>
+            </div>
+
+
+
         </div>
     </div>
 
-    <div class="Services Section p-5">
-        <div class="flex-column justify-center align-center gap-5">
-            <p>NOS SAVOIR-FAIRE</p>
+    <div class=" p-5">
+        <div class="flex-column justify-center align-center  gap-5 p-2">
+            <p class="color-bleu">NOS SAVOIR-FAIRE</p>
             <h2>Des solutions pour tous vos besoins</h1>
                 <p>De l'urgence au projet, le bon geste pour chaque situation.</p>
         </div>
@@ -76,7 +95,7 @@
                 <img class="image-service" src="images/image-4.jpg">
                 <h3>Réparation de fuites</h3>
                 <p>Nous localisons la fuite et réparons vos canalisations durablement, pour protéger votre logement et
-                    éviter le gaspillage.</p>
+                    éviter le gaspillage.</p>yu:,
             </div>
         </div>
 
@@ -84,7 +103,7 @@
     </div>
     <div class="p-5 flex background-primary">
         <div><img class="image-qualite" src="images/image-1.jpg"></div>
-        <div class="">
+        <div class="choisir-padding">
             <div class="flex-column align-center justify-center gap-5">
                 <p>POURQUOI NOUS CHOISIR ?</p>
                 <h3>Un service fiable et de qualité</h3>
@@ -121,14 +140,15 @@
         <div class="flex">
             <div logo>
                 <div></div>
-                <p>Votre partenaire plomberie pour un quotidien serein. Des artisans de proximité, un travail soigné et
+                <p class="footer-color-text">Votre partenaire plomberie pour un quotidien serein. Des artisans de
+                    proximité, un travail soigné et
                     des engagements tenus.</p>
                 <div fcb>
                 </div>
             </div>
             <div lie>
                 <h3></h3>
-                <div>
+                <div class="footer-color-text">
                     <p>Accueil</p>
                     <p>Services</p>
                     <p>À propos</p>
@@ -136,7 +156,7 @@
                 </div>
                 <div service>
                     <h3></h3>
-                    <div>
+                    <div class="footer-color-text">
                         <p>Dépannage plomberie</p>
                         <p>Installation sanitaire</p>
                         <p>Réparation de fuites</p>
@@ -144,7 +164,7 @@
                 </div>
                 <div contact>
                     <h3>Contactez-nous</h3>
-                    <div>
+                    <div class="footer-color-text">
                         <p>04 00 00 00 00</p>
                         <p>bonjour@plombexpress.example</p>
                         <p>12 rue des Artisans
@@ -153,13 +173,17 @@
                     </div>
                 </div>
             </div>
-        </div>   <div 2026></div>
+        </div>
+        <div 2026>
+            <div class="footer-color-text">
+                <h4>Plomb'Express</h4>
+                <p>Votre partenaire plomberie pour un quotidien serein. Des artisans de proximité, un travail soigné et
+                    des
+                    engagements tenus.</p>
+            </div>
+        </div>
     </footer>
-    <div class="">
-        <h4>Plomb'Express</h4>
-        <p>Votre partenaire plomberie pour un quotidien serein. Des artisans de proximité, un travail soigné et des
-            engagements tenus.</p>
-    </div>
+
 
 
 </body>
