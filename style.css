@@ -45,7 +45,9 @@ background-color:#F3F7FA;
 .gap-5 {
     gap: 2rem;
 }
-
+.gap-05{
+    gap:.5rem;
+}
 .pt-5 {
     padding-top: 20xp;
 }
@@ -54,8 +56,8 @@ background-color:#F3F7FA;
     border-radius: 10%;
 }
 .image-service{
-    border-top-left-radius: 15%;
-    border-top-right-radius: 15%;
+    border-top-left-radius: 12%;
+    border-top-right-radius: 12%;
     height: 10rem;
     width: 100%;
    
@@ -73,6 +75,9 @@ background-color:#F3F7FA;
 
 .justify-center {
     justify-content: center;
+}
+.justify-between{
+    justify-content: space-between;
 }
 .btn {
     border-radius: 5%;
@@ -108,6 +113,9 @@ background-color:#F3F7FA;
 .padding-left{
     padding: 0 2rem;
     
+}
+.padding-icon-text{
+    padding:1rem ;
 }
 .border-service{
     border: #dce5ec solid 0.01rem;
